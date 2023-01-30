@@ -11,6 +11,7 @@ DiamondScript is a brand new programming language, it will be high-level powerfu
 
 # Example
 Here is an example program of who you could make a ping pong for single player in computer.
+NOTE: This example is not an actual example of DiamondScript, I will add more code.
 
 ```
 <start>
