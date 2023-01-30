@@ -1,6 +1,6 @@
 # DiamondScript Programming Language
 "Built from the ground to be high-level general purpose understandnable readable easiest powerful language".
-
+ 
 NOTE: DiamondScript is being built to be used, It IS NOT A REAL LANGUAGE
 It's goal is to be completed even tho, in the future more things will be added. It's under contruction, but some of the codes are build and made.
 
@@ -25,47 +25,46 @@ import Second from Time
 
 *This the draw function defined below*
 function (draw){
-	start.background(rgb(0,0,0) *This starts the background*
-	create class (Ball) *This creates a class*
-	class Ball {
-		when (start){
-			set (Score) to (0)
-			go to (Ball, 0, 0)
-			point direction (Ball, 45)*
-			forever:{ *forever loop*
-				move.FORWARD (Ball, 15)
-				on edge (BOUNCE)
-			}
-			let a = Ball
-			forever:{
-				if (touching playerPaddle){
-					change (Score) by (1)
-					turn (180)* RIGHT
-					move.FORWARD (15)
-					wait (0.5) *This uses seconds*
-				}
-			}
+    start.background(rgb(0,0,0) *This starts the background*
+    create class (Ball) *This creates a class*
+    class Ball {
+        when (start){
+	    set (Score) to (0)
+	    go to (Ball, 0, 0)
+	    point direction (Ball, 45)*
+	    forever:{ *forever loop*
+		move.FORWARD (Ball, 15)
+		on edge (BOUNCE)
+	    }
+	    
+	    forever:{
+		if (touching playerPaddle){
+		    change (Score) by (1)
+		    turn (180)* RIGHT
+		    move.FORWARD (15)
+		    wait (0.5) *This uses seconds*
 		}
-	}
-	
-	create class (playerPaddle)
-	class playerPaddle {
-		when (start){
-			forever:{
-				set x to (MOUSE x)
-			}
+	     }
+         }
+     }
+
+    create class (playerPaddle)
+    class playerPaddle {
+        when (start){
+	    forever:{
+	        set x to (MOUSE x)
+	    }
+	 }
+     }
+
+    create class (Line)
+	class Line{
+	    forever:{
+		if (touching Ball){
+		    STOP (all)
 		}
-	}
-	
-	create class (Line){
-		class Line{
-			forever:{
-				if (touching Ball){
-					STOP (all)
-				}
-			}
-		}
-	}
+	     }
+         }
 }
 *This is the ending tag below*
 <end>
