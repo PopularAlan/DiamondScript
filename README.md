@@ -4,8 +4,6 @@
 NOTE: DiamondScript is being built to be used, It IS NOT A REAL LANGUAGE
 It's goal is to be completed even tho, in the future more things will be added. It's under contruction, but some of the codes are build and made.
 
-If you want to program in DiamondScript now, the tutorials are being built. So you will have to wait, but if you want to atleast know some, message me.
-
 # About
 DiamondScript is a brand new programming language, it will be high-level powerful language and its general purpose, which means it can be used to make anything. Right now, I am testing to see what it can be use for, more code is being made. DiamondScript is not a real language, is it being build. Although, you can use it. It can be use to make game and probably to hack.
 
@@ -72,3 +70,4 @@ function (draw){
 ```
 
 If you ever wonder if DiamondScript can be use to make website or to turn this game to a game in a website, I could make it but what do yall think.
+_But if you want to starting programming in DiamondScript, go to [Table of Contents](Table of Contents/main.md)_
