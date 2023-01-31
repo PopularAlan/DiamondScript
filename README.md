@@ -70,4 +70,4 @@ function (draw){
 ```
 
 If you ever wonder if DiamondScript can be use to make website or to turn this game to a game in a website, I could make it but what do yall think.
-_But if you want to starting programming in DiamondScript, go to [Table of Contents](Table of Contents/main.md)_
+But if you want to start programming in DiamondScript, go to [Tutorial](Tutorial/main.md) to learn.
